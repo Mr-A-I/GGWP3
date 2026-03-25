@@ -25,9 +25,9 @@
 
   // Функция загрузки меню (заглушка для логики)
   dc.loadMenuItems = function (categoryShortName) {
-    console.log("Loading menu for: " + categoryShortName);
-    // Здесь обычно идет переход на страницу категории
-  };
+  console.log("Loading menu for: " + categoryShortName);
+  alert("Выбрана случайная категория: " + categoryShortName);
+};
 
   global.$dc = dc;
 
